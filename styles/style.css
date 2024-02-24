@@ -35,8 +35,18 @@ nav {
     background-color: #142771;
     height: 10vh;
     align-items: center;
-    justify-content: left;
+    justify-content: space-around;
 }
+
+.nav-bar-ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+
 
 .logo-header {
     height: 6rem;
@@ -128,6 +138,7 @@ nav {
     transform: rotateX(25deg);
     width: 30rem;
     text-align: center;
+    text-decoration: none;
 }
 
 .main-block-download-button:hover {
