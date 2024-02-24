@@ -1,0 +1,143 @@
+:root {
+    --main-bg-color: #0c1435;
+    --game-color: #233A98;
+    --yellow-color: #dfa44d;
+    --white-color: rgb(219, 207, 207);
+    --black-color: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+    transition: 0.1s ease;
+    user-select: none;
+}
+
+html {
+    font-size: 0.6rem;
+    font-family: Oswald;
+}
+
+body {
+    overflow: scroll;
+}
+
+main {
+    background: linear-gradient(to bottom, #233A98, #0c1435);
+    width: 100%;
+    height: 90vh;
+}
+
+nav {
+    display: flex;
+    background-color: #142771;
+    height: 10vh;
+    align-items: center;
+    justify-content: left;
+}
+
+.logo-header {
+    height: 6rem;
+    /*margin-right: 7vh;*/
+    /*margin-left: 7vh;*/
+}
+
+.nav-bar-button {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: var(--white-color);
+    font-family: Oswald;
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 5rem;
+}
+
+.right-column {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+    margin: 5rem;
+
+}
+
+.main-block-title {
+    padding-top: 6rem;
+    margin-bottom: 6rem;
+    position: relative;
+    text-align: center;
+}
+
+.main-block-title * {
+    font-family: gyparody;
+    font-weight: 700;
+    color: #fdc879;
+    text-shadow: 1px 1px 4px black;
+}
+
+.first-word {
+    font-size: 15rem;
+}
+
+.second-word {
+    font-size: 6rem;
+}
+
+.main-block-description {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-block-description-text {
+    color: var(--white-color);
+    font-size: 2rem;
+    width: 50rem;
+    text-align: justify;
+    margin-bottom: 7rem;
+    word-wrap: break-word;
+}
+
+.main-block-download-button {
+    background-color: transparent;
+    outline: none;
+    font-size: 4rem;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 10px;
+    transition: 0.3s ease;
+    color: var(--yellow-color);
+    border: 2px solid var(--yellow-color);
+    transform: rotateX(25deg);
+    width: 30rem;
+    text-align: center;
+}
+
+.main-block-download-button:hover {
+    box-shadow: 0 5px 5px 1px rgba(2, 26, 44, 0.44);
+    border: 2px solid #fdc879;
+    color: #fdc879;
+    transform: rotateX(0deg);
+}
+
+.main-block-download-buttons {
+    display: flex;
+    justify-content: space-around;
+}
