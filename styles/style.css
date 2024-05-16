@@ -41,9 +41,11 @@ header {
 }
 nav {
     display: flex;
+    position:relative;
     height: 10vh;
     align-items: center;
     justify-content: space-between;
+    z-index: 4;
 }
 
 .nav-bar-ul {
@@ -193,12 +195,18 @@ ul .nav-bar-button {
 }
 .instruction-block{
     background-color: #021A2C;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 .accordion-btn{
     background-color: #1E3181;
     color: var(--white-color);
-    height: 6rem;
-    font-size: 2rem;
+    height: 7rem;
+    font-size: 2.5rem;
     font-weight: 400;
     
 }
@@ -215,4 +223,7 @@ ul .nav-bar-button {
     --bs-accordion-color: var(--bs-body-color);
     --bs-accordion-bg: #EAEEFD;
     --bs-accordion-active-bg: #C6CFF9;
+}
+.accordion-p{
+    font-size: 2rem;
 }
