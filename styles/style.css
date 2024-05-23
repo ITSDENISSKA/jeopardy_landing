@@ -254,7 +254,7 @@ ul .nav-bar-button {
 .authors-block-text {  
     color: var(--white-color);
     font-size: 3rem;
-    max-width: 60%;
+    /* max-width: 70%; */
     text-align: center;
     padding-bottom: 7rem;
 }
@@ -270,4 +270,22 @@ ul .nav-bar-button {
 }
 .gradient{
     background: linear-gradient(0deg, rgba(0,0,0,0) 18%, rgba(2,26,44,1) 90%);
+}
+.authors-block-photos{
+    display: flex;
+    flex-direction: column;
+}
+.authors-photo{
+    border-radius: 50%;
+}
+.authors-block-personaloty{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 0;
+    align-self: start;
+    max-height: 30rem;
+    align-items: center;
+}
+.authors-p{
+    margin: 5rem;
 }
